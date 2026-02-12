@@ -13,6 +13,7 @@ import Recommendation from './components/Recommendation';
 import Stats from './components/Stats';
 import EventsList from './components/EventsList';
 import EditEventModal from './components/EditEventModal';
+import DayPlan from './components/DayPlan';
 
 export default function App() {
   const [children, setChildren] = useState([]);
@@ -171,6 +172,11 @@ export default function App() {
             {recommendation && (
               <Recommendation recommendation={recommendation} />
             )}
+
+            <DayPlan
+              selectedChild={selectedChild}
+              selectedChildId={selectedChildId}
+            />
 
             <Stats
               totalSleepToday={totalSleepToday}

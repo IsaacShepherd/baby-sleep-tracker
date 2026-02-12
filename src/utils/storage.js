@@ -57,3 +57,26 @@ export function saveSelectedChildIdToStorage(selectedChildId) {
   }
 }
 
+// Получить ключ для сохранения времени пробуждения
+function getWakeUpTimeKey(childId, date) {
+  const dateStr = date instanceof Date 
+    ? date.toISOString().split('T')[0] 
+    : date;
+  return `dayPlanWakeUp_${childId}_${dateStr}`;
+}
+
+// Сохранение времени пробуждения
+export function saveWakeUpTimeToStorage(childId, date, wakeUpTime) {
+  if (childId && date && wakeUpTime) {
+    const key = getWakeUpTimeKey(childId, date);
+    localStorage.setItem(key, wakeUpTime);
+  }
+}
+
+// Загрузка времени пробуждения
+export function loadWakeUpTimeFromStorage(childId, date) {
+  if (!childId || !date) return null;
+  const key = getWakeUpTimeKey(childId, date);
+  return localStorage.getItem(key);
+}
+
