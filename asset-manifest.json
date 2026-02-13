@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/baby-sleep-app/static/css/main.3d8f1c04.css",
-    "main.js": "/baby-sleep-app/static/js/main.9fefc254.js",
-    "static/js/453.0e20a92f.chunk.js": "/baby-sleep-app/static/js/453.0e20a92f.chunk.js",
-    "index.html": "/baby-sleep-app/index.html",
-    "main.3d8f1c04.css.map": "/baby-sleep-app/static/css/main.3d8f1c04.css.map",
-    "main.9fefc254.js.map": "/baby-sleep-app/static/js/main.9fefc254.js.map",
-    "453.0e20a92f.chunk.js.map": "/baby-sleep-app/static/js/453.0e20a92f.chunk.js.map"
+    "main.css": "/baby-sleep-tracker/static/css/main.3d8f1c04.css",
+    "main.js": "/baby-sleep-tracker/static/js/main.7de085c5.js",
+    "static/js/453.0e20a92f.chunk.js": "/baby-sleep-tracker/static/js/453.0e20a92f.chunk.js",
+    "index.html": "/baby-sleep-tracker/index.html",
+    "main.3d8f1c04.css.map": "/baby-sleep-tracker/static/css/main.3d8f1c04.css.map",
+    "main.7de085c5.js.map": "/baby-sleep-tracker/static/js/main.7de085c5.js.map",
+    "453.0e20a92f.chunk.js.map": "/baby-sleep-tracker/static/js/453.0e20a92f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d8f1c04.css",
-    "static/js/main.9fefc254.js"
+    "static/js/main.7de085c5.js"
   ]
 }
